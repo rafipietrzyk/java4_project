@@ -20,7 +20,5 @@ public class Main {
         if(user1.getLogin().equals(login) && user1.getPass().equals(pass)){
             System.out.println("Witaj, użytkowniku 1");
         }
-
-
     }
 }
