@@ -4,6 +4,17 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+
+
+                int s=1;
+        switch(s){
+            case 1:
+                System.out.println(0000);
+                break;
+            case 2:
+
+        }
+
         logowanie();
     }
 
