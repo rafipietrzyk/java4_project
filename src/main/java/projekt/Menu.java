@@ -1,4 +1,5 @@
 package projekt;
 
-public class Menu {
+public enum Menu {
+    LoginMenu,MainMenu,CurrencyMenu
 }
