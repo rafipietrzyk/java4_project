@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        display();
+        logowanie();
     }
 
-    private static void display() {
+    private static void logowanie() {
         User admin = new User("bbb", "aaa",Role.ADMIN);
         User user1 = new User("aaa", "bbb",Role.USER);
         User user2 = new User("ccc", "ddd",Role.USER);
@@ -18,7 +18,12 @@ public class Main {
         System.out.println("Podaj hasło!");
         String pass = scanner.nextLine();
         if(user1.getLogin().equals(login) && user1.getPass().equals(pass)){
-            System.out.println("Witaj, użytkowniku 1");
+            System.out.println("Witaj, użytkowniku 1, jaką walutę chciałbyś kupić?");
+
+
+
+        }else{
+
         }
 
 
