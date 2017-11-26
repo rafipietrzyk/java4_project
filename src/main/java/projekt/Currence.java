@@ -3,16 +3,16 @@ package projekt;
 import java.util.Date;
 
 public class Currence {
-    private Date data;
+    private Date date;
     private double rate;
 
-    public Currence(Date data, double rate) {
-        this.data = data;
+    public Currence(Date date, double rate) {
+        this.date = date;
         this.rate = rate;
     }
 
-    public Date getData() {
-        return data;
+    public Date getDate() {
+        return date;
     }
 
     public double getRate() {
