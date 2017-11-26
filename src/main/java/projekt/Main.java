@@ -1,7 +1,5 @@
 package projekt;
 
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Scanner;
 
 public class Main {
@@ -10,11 +8,10 @@ public class Main {
         Scanner scanner1 = new Scanner(System.in);
         int s = scanner1.nextInt();
         do {
-            System.out.println("Login menu 1, Main menu 2, Currency menu 3, jeśli 0 koniec!");
 
             switch (s) {
                 case 1:
-                    logowanie();
+                   logowanie();
                     break;
                 case 2:
                     //     mojeMenu();
@@ -28,7 +25,9 @@ public class Main {
                     System.out.println("złe dane");
 
             }
-        }while(s == 0);
+        }while(s != 0);{
+            System.out.println("złe dane");
+        };
 
 
     }
