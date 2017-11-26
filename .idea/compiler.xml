@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="java4_project" />
+        <module name="SdaProjekt" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="java4_project" target="1.5" />
+      <module name="SdaProjekt" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
